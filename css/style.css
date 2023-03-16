@@ -1,0 +1,69 @@
+body {
+    background-image: url("../img/coffee-g001a2dbfd_1920.jpg");
+    background-repeat : no-repeat;
+    background-attachment : fixed;
+    background-position : left center;
+}
+
+*{
+    color: aliceblue;
+}
+
+div.transparent {
+    opacity:0.9;
+}
+
+div.card-body {
+    opacity: none;
+    justify-content: space-between;
+}
+
+.fiyat {
+    text-align: right;
+} 
+
+img{
+    max-height: 357px;
+}
+
+#contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.footerbrand {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 2px;
+}
+
+
+
+.js div#preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+    background: #333;
+}
+
+.loader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.loader2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
